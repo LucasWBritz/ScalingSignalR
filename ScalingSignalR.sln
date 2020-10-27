@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScalingSignalR", "src/ScalingSignalR.csproj", "{73235959-F999-4B98-94FB-1DEFB618FF71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73235959-F999-4B98-94FB-1DEFB618FF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73235959-F999-4B98-94FB-1DEFB618FF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73235959-F999-4B98-94FB-1DEFB618FF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73235959-F999-4B98-94FB-1DEFB618FF71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ACE7E37-1230-43B0-A7C9-E370FD8D2236}
+	EndGlobalSection
+EndGlobal

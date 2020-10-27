@@ -1,0 +1,28 @@
+﻿version: "3.8"
+services:
+    rediscache:
+        image: redis:alpine
+        restart: always
+        ports:
+            - "16379:6379"
+        networks:
+            - signalrwithredis
+    web1:
+        build: .
+        ports: 
+            - "5090:80"
+        depends_on:
+            - rediscache
+        networks:
+            - signalrwithredis
+    web2:
+        build: .
+        ports: 
+            - "5091:80"
+        depends_on:
+            - rediscache
+        networks:
+            - signalrwithredis
+networks:
+    signalrwithredis:
+        driver: bridge
