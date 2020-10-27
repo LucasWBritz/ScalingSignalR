@@ -1,5 +1,5 @@
-# ScalingSignalR
-A simple project on how to scale a SignalR app using redis cache.
+# Scaling an websocket application using SignalR
+A simple project on how to scale a SignalR app using redis cache and docker
 
 Technologies used:
 - Asp.Net Core
